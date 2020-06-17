@@ -1,0 +1,52 @@
+.team{
+	margin:20px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	padding: 0px;
+	flex-wrap: wrap;
+
+}
+
+.team img{
+	width: 150px;
+	height: 150px;
+	margin: 0px;
+	border-radius: 10px;
+	object-fit: cover;
+	position: relative;
+}
+
+.team_name{
+
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding:0px;
+	text-align:center;
+	margin-left: 50px;
+	visibility: hidden;
+	opacity: 0;
+	flex-direction: column;
+
+}
+
+.team_image{
+	padding:0px;
+	margin:0px;
+	}
+	
+
+.team:hover .team_name{
+	visibility: visible;
+	 opacity: 1;
+}
+
+.team:hover .team_image{
+	filter:opacity(30%);
+}
+
+
+

@@ -1,0 +1,27 @@
+.container{
+	margin: auto;
+	width: 700px;
+	margin-top: 70px;
+	text-align: center;
+	margin-bottom: 90px;
+}
+
+.container h2 {
+
+	margin-top: 80px;
+}
+
+
+@media (max-width: 740px) {
+  .container {
+    width: 100%;
+    margin: 0;
+  }
+
+
+/* Write some CSS below */
+@media (max-width: 520px) {
+  .container {
+    width: 100%;
+    margin: 0;
+  }

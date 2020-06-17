@@ -1,0 +1,18 @@
+.button{
+	background-color: #BC8E4E;
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 18px;
+	font-family: Roboto Condensed light;
+	padding: 10px 20px;
+	border-radius: 5px;
+	margin: 30px 30px 30px 30px;
+}
+
+
+
+.button:hover{
+	/*background-color: #A7A7A7;*/
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+}
+

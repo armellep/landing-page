@@ -1,0 +1,17 @@
+.header img{
+	height: 70px;
+	margin: 15px 20px;
+}
+
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	position:  fixed;
+	background: #ffffff;
+	height: 85px;
+	z-index: 100;
+	width: 100%;
+	padding-bottom: 15px;
+	top: 0px;
+}
